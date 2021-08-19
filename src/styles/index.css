@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #28223f;
+    text-align: center;
+}
+
+.players-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+}

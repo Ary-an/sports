@@ -1,0 +1,83 @@
+.player-card {
+    background-color: #fff;
+    max-width: 1000px;
+    width: 300px;
+
+    margin: 1rem;
+    border-radius: 12px;
+    transition: 0.5s ease;
+}
+
+.player-card:hover {
+    box-shadow: 0px 1px 20px 2px #ccc;
+}
+
+.player-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #e83b52;
+    color: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    font-size: 20px;
+
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.player-card-header .player-name {
+    font-weight: 600;
+}
+
+.player-card-header .player-skill {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.player-card-body {
+    padding: 12px;
+    box-sizing: border-box;
+
+    position: relative;
+}
+
+.player-details {
+    font-size: 20px;
+}
+
+.player-value span,
+.upcoming-match span {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.player-value span:first-child,
+.upcoming-match span:first-child {
+    font-size: 18px;
+    color: #e83b52;
+    border-bottom: 1px solid #e83b52;
+    display: block;
+    width: fit-content;
+}
+
+.upcoming-match {
+    line-height: 1.5;
+}
+
+.player-profile {
+    width: 125px;
+    align-self: flex-end;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.player-profile img {
+    width: 100%;
+    border-radius: 50%;
+
+    object-fit: cover;
+}
